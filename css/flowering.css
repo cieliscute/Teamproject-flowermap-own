@@ -1,0 +1,33 @@
+#flowering {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 12%;
+  z-index: 0;
+}
+#flowering .sheet {
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px -4px black;
+  width: 80%;
+  max-width: 1300px;
+  z-index: 2;
+}
+#flowering .mountain {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}/*# sourceMappingURL=flowering.css.map */
+#flowering .sky{
+  position: absolute;
+  width: 100%;
+  top: -50%;
+}
+#flowering .sun{
+  position: absolute;
+  width: 18%;
+  top: -32%;
+  right: 14%;
+  z-index: 1;
+}

@@ -1,0 +1,147 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body .flower_img-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Noto Serif TC', serif;
+  z-index: 1;
+}
+body .flower_img-box h2 {
+  text-align: center;
+  font-size: 24px;
+}
+body .flower_img-box >img {
+  width: 20%;
+  margin: 80px 0px;
+}
+body .flower_img-box .choose {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+body .flower_img-box .choose select {
+  width: 220px;
+  margin: 0px 45px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+body .flower_img-box .choose select optgroup {
+  color: white;
+  background-color: cadetblue;
+}
+body .flower_img-box #icon-box {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+}
+body .flower_img-box #icon-box #icon {
+  width: 900px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+body .flower_img-box #icon-box #icon img {
+  width: 60PX;
+  margin: 0PX 10PX;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+body .flower_img-box #icon-box #icon img:hover {
+  transform: scale(1.1);
+}
+body .flower_img-box .flower-image-box {
+  display: flex;
+  height: 775px;
+  width: 100%;
+}
+body .flower_img-box .flower-image-box .bird-box {
+  width: calc((100% - 850px) / 2);
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+}
+body .flower_img-box .flower-image-box .bird-box img {
+  width: 200px;
+}
+body .flower_img-box .flower-image-box #flower-box {
+  width: 850px;
+}
+body .flower_img-box .flower-image-box #flower-box .information {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 850px;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-image {
+  width: 550px;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-image img {
+  width: auto;
+  height: 90%;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-news {
+  width: 300px;
+  padding-top: 100px;
+  word-break: break-all;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-news h2 {
+  margin-bottom: 30px;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-news .news {
+  display: inline-block;
+  width: 300px;
+  line-height: 35px;
+  margin: 4px 0px;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-news .news p {
+  float: left;
+  width: 60px;
+  font-size: 20px;
+  margin: 0px;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-news .news span {
+  float: left;
+  width: 240px;
+  text-align: justify;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-introduce {
+  padding-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .flower_img-box .flower-image-box #flower-box .information .flower-introduce p {
+  width: 850px;
+  word-break: break-all;
+  text-align: justify;
+  line-height: 30px;
+  font-size: 18px;
+}
+body .flower_img-box .flower-image-box #flower-box .none {
+  display: none;
+}
+body .flower_img-box .flower-image-box .girl-img {
+  width: calc((100% - 850px) / 2);
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+}
+body .flower_img-box .flower-image-box .girl-img img {
+  width: 200px;
+}/*# sourceMappingURL=search.css.map */
